@@ -21,17 +21,16 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url("../images/b2.jpg");
+        background-image: url("../images/bg6.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        filter: blur(5px); /* 🔥 Blur burada uygulanıyor */
-        transform: scale(1.1); /* Blur sonrası kenar bozulmasını düzeltir */
-        /* 🔥 Karartma efekti */
-        background-color: rgba(0, 0, 0, 0.1); /* 0.45 = %45 karartma */
-        background-blend-mode: darken; /* Resmi karartır */
-        z-index: -1; /* Sayfa içeriği üstte kalır */
+        background-color: rgba(0,0, 0, 0.2);
+        background-blend-mode: darken;
+        transform: scale(1.1);
+        z-index: -1;
     }
+
 
 
 
@@ -41,10 +40,11 @@ body {
     padding: 25px 40px;
     display: flex-column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.01);
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(30px);
+    box-shadow: white 0 0 20px;
 }
 
 /* Header */
@@ -75,17 +75,19 @@ header {
 
         .nav a:hover,
         .nav .active {
-            color: #f87aff;
+            background-color: #e80070;
+            color: white;
+            border-radius: 50px;
+            padding: 5px;
         }
 
 /* MAIN SECTION */
 .hero {
     margin-top: 120px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .left {
@@ -99,7 +101,7 @@ header {
     }
 
     .left h3 {
-        color: #ff57e6;
+        color: #fff;
         font-size: 26px;
         margin-bottom: 20px;
     }
@@ -112,9 +114,9 @@ header {
 
 
 
-.icons{
-    display:flex;
-    align-items:center;
+.icons {
+    display: flex;
+    align-items: center;
 }
 
 .cv-btn {
@@ -135,17 +137,17 @@ header {
         color: #000;
     }
 
-    .social {
-        display: flex;
-        gap: 20px;
-        font-size: 20px;
-        color: #fff;
-        margin-left: 20px;
-    }
+.social {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+}
 
-    .social a{
-        color:#fff;
-    }    
+    .social a {
+        color: #fff;
+    }
 
     .social i {
         border: 2px solid #fff;
