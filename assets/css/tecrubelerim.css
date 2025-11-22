@@ -1,0 +1,29 @@
+
+.experience-section {
+    margin-top: 80px;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255,255,255,1);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+    .experience-card h2 {
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .experience-card h3 {
+        color: #e80070;
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .experience-card p {
+        color: #fff;
+    }

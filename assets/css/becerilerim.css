@@ -1,0 +1,27 @@
+.skill-section {
+    margin-top: 80px;
+}
+
+.skill-box {
+    margin-bottom: 25px;
+}
+
+    .skill-box p {
+        color: #fff;
+        font-size: 18px;
+    }
+
+.skill-bar {
+    height: 12px;
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+    .skill-bar span {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg, #6f00ff, #e80070);
+        border-radius: 12px;
+    }

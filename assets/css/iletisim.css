@@ -1,0 +1,30 @@
+.contact-section {
+    margin-top: 80px;
+}
+
+
+
+.contact-info {
+    flex: 1;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto; /* ortaya getirir */
+    width: fit-content; /* içeriðe göre geniþlik */
+}
+
+
+    .contact-info i {
+        margin-right: 10px;
+        color: #fff;
+    }
+
+    .contact-info p {
+        margin-top: 10px;
+    }
+
+    .contact-info a {
+        text-decoration: none;
+        color: #fff;
+    }
+
