@@ -1,0 +1,139 @@
+.hamburger {
+    display: none;
+}
+
+
+
+/* ---------- TABLET ---------- */
+@media (max-width: 1200px) and (min-width: 768px) {
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+        .right .photo {
+            margin-top: 30px;
+        }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .skill-bar span {
+        height: 12px;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 75vh;
+        width: 250px;
+        background: rgba(120, 105, 110,1);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 20px;
+        transition: 0.3s;
+        z-index: 1000;
+    }
+
+        .nav.active {
+            right: 0;
+        }
+
+        .nav a {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+
+    .hamburger {
+        display: block;
+        font-size: 28px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 767px) {
+
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+        .right .photo {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+        }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .skill-bar span {
+        height: 10px;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 75vh;
+        width: 250px;
+        background: rgba(120, 105, 110,1);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 20px;
+        transition: 0.3s;
+        z-index: 1000;
+    }
+
+        .nav.active {
+            right: 0;
+        }
+
+        .nav a {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+
+    .hamburger {
+        display: block;
+        font-size: 28px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
