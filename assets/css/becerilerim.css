@@ -25,3 +25,13 @@
         background: linear-gradient(90deg, #6f00ff, #e80070);
         border-radius: 12px;
     }
+
+
+.bottom-section{
+    margin-top:80px;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom:30px;
+}
