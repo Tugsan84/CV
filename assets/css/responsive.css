@@ -95,7 +95,7 @@
 }
 
 /* ---------- MOBILE ---------- */
-@media (max-width: 767px) and (min-width:400px) {
+@media (max-width: 768px) and (min-width:400px) {
 
     .container {
         width: 95%;
@@ -183,6 +183,10 @@
 
     .sertifika-grid h3 {
         font-size: 16px;
+    }
+
+    .experience-card h3 {
+        word-wrap:break-word;
     }
 }
 
