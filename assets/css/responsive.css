@@ -88,6 +88,10 @@
         color: #fff;
         cursor: pointer;
     }
+
+    .sertifika-grid h1{
+        font-size:22px;
+    }
 }
 
 /* ---------- MOBILE ---------- */
@@ -175,6 +179,10 @@
         font-size: 28px;
         color: #fff;
         cursor: pointer;
+    }
+
+    .sertifika-grid h1 {
+        font-size: 16px;
     }
 }
 
@@ -279,5 +287,9 @@
         font-size: 28px;
         color: #fff;
         cursor: pointer;
+    }
+
+    .sertifika-grid h1 {
+        font-size: 13px;
     }
 }
