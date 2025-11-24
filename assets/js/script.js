@@ -1,18 +1,39 @@
-const hamburger = document.querySelector('.hamburger');
+ï»¿const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');
 
-// Hamburger týklanýnca menüyü aç/kapa
+// Hamburger tÄ±klanÄ±nca menÃ¼yÃ¼ aÃ§/kapa
 hamburger.addEventListener('click', (e) => {
     nav.classList.toggle('active');
-    e.stopPropagation(); // click eventinin document'e yayýlmasýný engeller
+    e.stopPropagation(); // click eventinin document'e yayÄ±lmasÄ±nÄ± engeller
 });
 
-// Nav menüye týklanýnca menü kapanmasýn
+// Nav menÃ¼ye tÄ±klanÄ±nca menÃ¼ kapanmasÄ±n
 nav.addEventListener('click', (e) => {
     e.stopPropagation();
 });
 
-// Sayfaya týklanýnca menüyü kapat
+// Sayfaya tÄ±klanÄ±nca menÃ¼yÃ¼ kapat
 document.addEventListener('click', () => {
     nav.classList.remove('active');
 });
+
+
+
+
+
+
+    // Sayfa yolu al
+    const path = window.location.pathname;
+
+    // Buton elementleri
+    const desktopBtn = document.getElementById('desktop-lang-btn');
+    const mobileBtn = document.getElementById('mobile-lang-btn');
+
+    // Aktif bayraÄŸÄ± belirle
+    if (path.includes('/en/')) {
+        desktopBtn.textContent = 'EN';
+    mobileBtn.textContent = 'EN';
+    } else {
+        desktopBtn.textContent = 'TR';
+    mobileBtn.textContent = 'TR';
+    }
